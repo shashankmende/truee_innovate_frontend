@@ -1,0 +1,23 @@
+.table-container table {
+    border-collapse: collapse; 
+    width: 100%; 
+    margin-top: 2rem;
+  }
+  
+  .table-container th, .table-container td {
+    padding: 12px 20px;
+    text-align: left; 
+  }
+  
+  .table-container th {
+    background-color: #F5F9FA; 
+  }
+  
+  .table-container tr{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.279);
+  }
+
+  .table-container button{
+    border: none;
+    background-color: transparent;
+  }

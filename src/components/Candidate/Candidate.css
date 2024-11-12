@@ -1,0 +1,181 @@
+
+.candidate-section {
+    padding: 3rem 2rem;
+}
+
+.candidate-section-1--div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-arrow-heading--container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.candidate-section-1--div a{
+    text-decoration: none;
+    color: white;
+}
+
+.add-btn{
+    background-color: #22798A;
+    color: white;
+    padding: 1rem 1.5rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.candidate-section-2--div{
+    margin-top: 2rem;
+}
+
+.candidate-section-2--div .icon{
+
+}
+
+.search-filter-container {
+
+}
+
+.candidate-section-2--div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.search-container{
+    border: 1px solid rgba(128, 128, 128, 0.418);
+    padding: 0.8rem;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+
+.search-container input{
+    border: none;
+    outline: none;
+    width: 100% ;
+
+}
+
+
+.search-filter-container{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.pagination-container .page-icon{
+    /*border: 1px solid #B0C9CC;
+    */border: 1px solid #a9aeaf;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+
+.pagination-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sort-container{
+    cursor: pointer;
+}
+
+/* filter css */
+.candidate-section-3--div{ display: flex;}
+.filter-container{
+    margin-top: 2rem;
+    padding: 0 1.5rem;
+
+}
+
+
+.experience-filter--container .experience-filter-top--container{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+
+.experience-filter-salary-range--container {
+    display: flex;
+    /* border: 1px solid red; */
+    /* height: max-content; */
+    /* width: 100%; */
+    padding-top: 1rem;
+    gap: 1rem;
+    width: 100%;
+}
+
+.experience-filter-salary-range--container input{
+    
+    width: 50px;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.33);
+    outline: none;
+}
+
+.selected-skills-button {
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.1rem 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.skill-filter-salary-range--container input{
+    padding: 0.4rem 0.8rem;
+    border: 1px solid rgba(128, 128, 128, 0.484);
+    outline: none;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    margin-bottom: 0.8rem;
+}
+
+.skill-filter-salary-range--container button{
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+    cursor: pointer;
+}

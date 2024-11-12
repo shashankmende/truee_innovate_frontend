@@ -25,7 +25,7 @@ const Candidate = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const response = await axios.get("http://localhost:4000/api/v1/candidate");
+        const response = await axios.get("https://truee-innovate-backend-2.onrender.com/api/v1/candidate");
         setCandidatesList(response.data.candidates);
         setFilteredList(response.data.candidates);
       } catch (error) {

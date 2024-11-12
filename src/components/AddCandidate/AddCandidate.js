@@ -51,7 +51,7 @@ const AddCandidate = () => {
             gender
         }
         try {
-            const response = await axios.post('http://localhost:4000/api/v1/candidate',reqbody)
+            await axios.post('https://truee-innovate-backend-2.onrender.com/api/v1/candidate',reqbody)
             setStatus("Candidate Added")
             
         } catch (error) {
